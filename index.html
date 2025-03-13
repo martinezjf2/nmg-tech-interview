@@ -41,10 +41,31 @@
   </div>
 </nav>
 
-<!-- <div id="page-content-wrap" class="clearfix container-fluid">  
-    <div class="row"> -->
 
-      <!-- Jumbotron/Carousel for featured appliances -->
+<!-- Second Navbar -->
+<nav class="navbar-default">
+    <div class="" style="padding: 0; display: flex; justify-content: space-around">
+        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis;">
+            <li><a href="#cooking">Cooking</a></li>
+            <li><a href="#refrigeration">Refrigeration</a></li>
+            <li><a href="#laundry">Laundry</a></li>
+            <li><a href="#grilling">Grilling</a></li>
+        </ul>
+        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis;">
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#laundry">Customer Service</a></li>
+            <li><a href="#">Product Support</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="page-content-wrap" class="clearfix container-fluid">  
+    <div class="row"> 
+
+<!-- Jumbotron/Carousel for featured appliances -->
 <header>
     <div id="heroCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
         <div class="carousel-inner">
@@ -144,36 +165,11 @@
       <section class="boxed-container section-margin">
         <div class="section-header-banner-bg">
           <div class="section-header-banner">
-            <p class="section-header">Shop Our Popular Brands</p>
+            <p class="section-header">Our Categories</p>
           </div>
         </div>
         <div class="featured-boxes">
-          <div class="row">
-            <div class="col-md-4 col-sm-12">
-              <a class="featured-box-01 featured-box-wrap" href="#" title="placeholder">
-                <img class="img-fluid" src="http://via.placeholder.com/600x500" alt="placeholder" title="placeholder">
-                <div class="caption">
-                  Shop Now
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <a class="featured-box-02 featured-box-wrap" href="#" title="placeholder">
-                <img class="img-fluid" src="http://via.placeholder.com/600x500" alt="placeholder" title="placeholder">
-                <div class="caption">
-                  Shop Now
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <a class="featured-box-03 featured-box-wrap" href="#" title="placeholder">
-                <img class="img-fluid" src="http://via.placeholder.com/600x500" alt="placeholder" title="placeholder">
-                <div class="caption">
-                  Shop Now
-                </div>
-              </a>
-            </div>
-          </div>
+
           <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6">
               <a class="featured-box-04 featured-box-wrap" href="#" title="placeholder">
@@ -211,21 +207,24 @@
         </div>
       </section> <!-- /featured-offers -->
 
-      <section class="container-fluid section-margin">
-        <div class="row no-gutter featured-rows">
-            <div class="col-xs-12">
-              <div class="featured-row-wrap featured-row-01">
-                <div class="caption">
-                  <p class="caption-title">Placeholder</p>
-                  <p class="caption-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget orci arcu. Nulla quis orci in lorem accumsan feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget orci arcu. Nulla quis orci in lorem accumsan feugiat. </p>
-                  <a class="btn btn-default"href="#" title="placeholder">Link</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
+      <!-- Financing with Synchrony Section -->
+<section class="container-fluid section-margin">
+    <div class="row no-gutter featured-rows">
+        <div class="col-xs-12">
+            <div class="featured-row-wrap featured-row-01" style="padding: 0;">
+                <div class="caption">
+                    <p class="caption-title">Financing with Synchrony</p>
+                    <p class="caption-desc" style="padding: 10px 55px;">Get the appliances you need today with flexible financing options from Synchrony Financial. Enjoy low monthly payments and exclusive offers tailored for you.</p>
+                    <a class="btn btn-default" href="financing.html" title="Learn More">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Articles of Products -->
       <section class="boxed-container section-margin">
         <div class="row featured-cards">
           <div class="col-sm-4 col-xs-12">
@@ -275,11 +274,11 @@
 
   
 
-    <!-- </div>
-  </div> /page-content-wrap -->
+    </div>
+</div>   <!--  /page-content-wrap -->
 
 
-    
+    <!-- Footer Section -->
   <footer class="footer">
     <div class="container">
       <p class="text-muted text-center">Copyright Info</p>
@@ -290,15 +289,15 @@
 
     
 
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script defer src="./js/owlCarousel.js"></script>
+  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script defer src="./js/heroCarousel.js"></script>
+  <script defer src="./js/owlCarousel.js"></script>
   
 
   <!-- Klaviyo Integration -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
   (function() {
       var KlaviyoScript = document.createElement("script");
       KlaviyoScript.type = "text/javascript";
@@ -306,7 +305,7 @@
       KlaviyoScript.src = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VnKibW";
       document.getElementsByTagName("head")[0].appendChild(KlaviyoScript);
   })();
-</script>
+</script> -->
 
 </body>
 </html> 
