@@ -510,3 +510,25 @@ footer p {
     .owl-nav {
       display: none;
     }
+/* 
+            .featured-box-wrap {
+              padding-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+        .featured-box-wrap img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .caption {
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        } */
