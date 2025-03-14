@@ -1,0 +1,35 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .privacy-header {
+            background: linear-gradient(135deg, #6c757d, #495057);
+            color: white;
+            padding: 50px 0;
+        }
+        .privacy-header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .privacy-content {
+            background: white;
+            padding: 40px;
+            margin-top: -30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #495057;
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 10px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #6c757d;
+        }

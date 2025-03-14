@@ -111,15 +111,21 @@ a:hover {
   background-color: #333333;
 }
 
+.bg-green {
+  background-color: #28a745;
+}
+
 /* site: btns */
 .btn {
   transition: all 0.3s ease-in-out;
 }
 .btn-primary {
   background: <%usedef name= "btn_primary" %>;
-  border-color: #0a6eb4;
+  border-color: #28a745;
   color: #fff;
 }
+
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,

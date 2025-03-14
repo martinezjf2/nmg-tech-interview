@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | Bob’s Appliances</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .contact-header {
+            background: linear-gradient(135deg, #28a745, #218838);
+            color: white;
+            padding: 50px 0;
+        }
+        .contact-header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .contact-content {
+            background: white;
+            padding: 40px;
+            margin-top: -30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .map-container {
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0; padding: 20px 0px;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Logo Here</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Email Savings</a></li>
+        <li><a href="financing.html">Financing</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<!-- Second Navbar -->
+<nav class="navbar-default">
+    <div class="" style="padding: 0; display: flex; justify-content: space-around">
+        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis; color: #28a745;">
+            <li><a style="color: #28a745;" href="#cooking">Cooking</a></li>
+            <li><a style="color: #28a745;" href="#refrigeration">Refrigeration</a></li>
+            <li><a style="color: #28a745;" href="#laundry">Laundry</a></li>
+            <li><a style="color: #28a745;" href="#grilling">Grilling</a></li>
+        </ul>
+        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis;">
+            <li><a style="color: #28a745;" href="#">Videos</a></li>
+            <li><a style="color: #28a745;" href="#">Articles</a></li>
+            <li><a style="color: #28a745;" href="#laundry">Customer Service</a></li>
+            <li><a style="color: #28a745;" href="#">Product Support</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="contact-header text-center">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Fill out the form below and we'll get back to you soon.</p>
+    </div>
+</header>
+
+<section class="container contact-content">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Get In Touch</h2>
+            <p>Visit us at our store or reach out to us using the form. Our team is here to assist you with any inquiries regarding our products and services.</p>
+            <p><strong>Address:</strong> 123 Appliance St, Cityville, ST 56789</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> support@bobsappliances.com</p>
+            
+            <div class="map-container">
+                <iframe 
+                    width="100%" 
+                    height="300" 
+                    frameborder="0" 
+                    style="border:0" 
+                    allowfullscreen 
+                    src="https://www.google.com/maps/embed/v1/place?q=123+Appliance+St,+Cityville,+ST+56789&key=YOUR_GOOGLE_MAPS_API_KEY">
+                </iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>Send Us a Message</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer text-center">
+    <p><a href="index.html">Back to Home</a></p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
