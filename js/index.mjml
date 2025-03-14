@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+  <mjml>
+    <mj-head>
+      <mj-preview>We received your message! Here's a quick response...</mj-preview>
+      <mj-style inline="inline">
+        .email-container { background-color: #f8f9fa; padding: 20px; border-radius: 8px; }
+        .btn { background-color: #28a745; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+      </mj-style>
+    </mj-head>
+    <mj-body background-color="#f2f2f2">
+    <mj-wrapper background-color="white">
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="20px" font-weight="bold" color="#333333">
+            Thank You for Contacting Bob’s Appliances!
+          </mj-text>
+          <mj-text font-size="16px" color="#555555">
+            We have received your message and one of our top-tier appliance wizards (a.k.a. customer support team) will get back to you faster than your microwave heats up leftovers.
+          </mj-text>
+          <mj-text font-size="16px" color="#555555">
+            In the meantime, feel free to browse our latest deals and promotions. Who knows? You might just find that dream fridge you've always wanted!
+          </mj-text>
+          <mj-button background-color="#28a745" color="#ffffff" font-size="16px" href="https://bobsappliances.com/deals">
+            Check Out Deals
+          </mj-button>
+          <mj-text font-size="14px" color="#999999">
+            If you need urgent assistance, give us a call at (123) 456-7890 or send a carrier pigeon (we don’t actually accept pigeons, but we appreciate creativity!).
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="12px" color="#777777">
+            &copy; 2024 Bob's Appliances. All rights reserved. <br> 123 Appliance St, Cityville, ST 56789
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      </mj-wrapper>
+    </mj-body>
+  </mjml>
