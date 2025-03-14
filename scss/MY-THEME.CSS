@@ -343,11 +343,14 @@ a:hover {
 .featured-rows .featured-row-wrap {
   display: block;
   position: relative;
-  padding: 5rem;
+  /* padding: 5rem; */
 }
 .featured-rows .caption {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  background: url('https://www.funded.com/blog/wp-content/uploads/2023/07/financing-funding.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed !important;
   display: flex;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -360,7 +363,7 @@ a:hover {
   -ms-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   color: #ffffff;
-  border: 1px solid #e0e0e0;
+  /* border: 1px solid #e0e0e0; */
   line-height: 1.4;
   color: #ffffff;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
@@ -368,24 +371,27 @@ a:hover {
 }
 .featured-rows .caption-title {
   font-size: 2.75rem;
+  z-index: 1;
 }
 .featured-rows .caption-desc {
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  z-index: 1;
 }
 .featured-rows .btn {
   align-self: center;
   display: inline-flex;
   text-shadow: none;
+  z-index: 1;
 }
-.featured-row-01 {
+/* .featured-row-01 {
   background-image: url(http://via.placeholder.com/1440x600);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-}
+} */
 
 /* index: featured-cards */
 .featured-card-wrap {
@@ -538,3 +544,7 @@ footer p {
             width: 100%;
             text-align: center;
         } */
+
+
+
+    
