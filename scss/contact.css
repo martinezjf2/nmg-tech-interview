@@ -1,8 +1,4 @@
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-        }
+
         .contact-header {
             background: linear-gradient(135deg, #28a745, #218838);
             color: white;
@@ -24,12 +20,4 @@
             border-radius: 8px;
             overflow: hidden;
         }
-        .footer {
-            background: #333;
-            color: white;
-            padding: 20px;
-            margin-top: 40px;
-        }
-        .footer a {
-            color: #007bff;
-        }
+  
