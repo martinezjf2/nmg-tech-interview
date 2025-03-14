@@ -1,147 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Bob's Appliances</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./scss/reset.scss">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-     <link rel="stylesheet" href="./scss/MY-THEME.CSS">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/navbar-static-top/">
-     <link href="navbar-static-top.css" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
-     <!-- FontAwesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/reset.scss" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/MY-THEME.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/3.4/examples/navbar-static-top/"
+    />
+    <link href="navbar-static-top.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700,900"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-</head>
-
-<body id="home">
-
-<nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0; padding: 20px 0px;">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Logo Here</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Email Savings</a></li>
-        <li><a href="financing.html">Financing</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
-
-
-<!-- Second Navbar -->
-<nav class="navbar-default second-navbar">
-    <div class="" style="padding: 0; display: flex; justify-content: space-around">
-        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
-    text-overflow: ellipsis; color: #28a745;">
-            <li><a style="color: #28a745;" href="#cooking">Cooking</a></li>
-            <li><a style="color: #28a745;" href="#refrigeration">Refrigeration</a></li>
-            <li><a style="color: #28a745;" href="#laundry">Laundry</a></li>
-            <li><a style="color: #28a745;" href="#grilling">Grilling</a></li>
-        </ul>
-        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
-    text-overflow: ellipsis;">
-            <li><a style="color: #28a745;" href="#">Videos</a></li>
-            <li><a style="color: #28a745;" href="#">Articles</a></li>
-            <li><a style="color: #28a745;" href="#laundry">Customer Service</a></li>
-            <li><a style="color: #28a745;" href="#">Product Support</a></li>
-        </ul>
-    </div>
-</nav>
-
-<div id="page-content-wrap" class="clearfix container-fluid">  
-    <div class="row"> 
-
-<!-- Jumbotron/Carousel for featured appliances -->
-<header>
-    <div id="heroCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="https://linqcdn.avbportal.com/images/c86fe15b-102d-493e-85f7-b6d67ee5dd7f.jpg" class="img-fluid" alt="KitchenAid Appliances" style="height: 70vh; object-fit: cover; width: 100%;">
-                <div class="overlay"></div>
-                <div class="carousel-caption text-center" style="top: 50%; transform: translateY(-50%);">
-                    <h1 class="text-white" style="font-size: 42px; letter-spacing: 1.5px">Upgrade Your Kitchen with KitchenAid</h1>
-                    <p class="text-white" style="font-size: 24px; margin-bottom: 25px; letter-spacing: 1.5px">Premium quality appliances to enhance your home.</p>
-                    <a href="#shop" class="btn btn-primary btn-lg bg-green"  style="padding: 10px 40px;">Shop Now</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://www.whirlpool.com/is/image/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/2024-q3-homepage-refresh/Kitchen_FO.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1" class="img-fluid" alt="Whirlpool Appliances" style="height: 70vh; object-fit: cover; width: 100%;">
-                <div class="overlay"></div>
-                <div class="carousel-caption text-center" style="top: 50%; transform: translateY(-50%);">
-                    <h1 class="text-white" style="font-size: 42px; letter-spacing: 1.5px">Whirlpool Innovation for Your Home</h1>
-                    <p class="text-white" style="font-size: 24px; margin-bottom: 25px; letter-spacing: 1.5px">Reliable and efficient appliances for everyday living.</p>
-                    <a href="#shop" class="btn btn-primary btn-lg bg-green" style="padding: 10px 40px;">Shop Now</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="https://mobileimages.lowes.com/productimages/e310b118-4774-4d09-861e-063652404272/08791935.jpg" class="img-fluid" alt="Maytag Appliances" style="height: 70vh; object-fit: cover; width: 100%;">
-                <div class="overlay"></div>
-                <div class="carousel-caption text-center" style="top: 50%; transform: translateY(-50%);">
-                    <h1 class="text-white"  style="font-size: 42px; letter-spacing: 1.5px">Durability You Can Trust</h1>
-                    <p class="text-white" style="font-size: 24px; margin-bottom: 25px; letter-spacing: 1.5px">Maytag appliances built for long-lasting performance.</p>
-                    <a href="#shop" class="btn btn-primary btn-lg bg-green" style="padding: 10px 40px;">Shop Now</a>
-                </div>
-            </div>
+  <body id="home">
+    <nav
+      class="navbar navbar-default navbar-static-top"
+      style="margin-bottom: 0; padding: 20px 0px"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Logo Here</a>
         </div>
-        <a class="left carousel-control" href="#heroCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#heroCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-</header>
-
-
-<!-- Owl Carousel on Brands -->
-<section id="featured-brands" class="container-fluid text-center section-margin" style="margin-top: 50px;">
-    <h2 style="color: #28a745;">Our Featured Brands</h2>
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="featured-brand-container owl-carousel carousel-side-nav">
-                <div class="item">
-                    <img src="./img/AMN.png" alt="KitchenAid" class="img-responsive center-block">
-                </div>
-                <div class="item">
-                    <img src="./img/ELECTROLUX.png" alt="Whirlpool" class="img-responsive center-block">
-                </div>
-                <div class="item">
-                    <img src="./img/FRIG.png" alt="Amana" class="img-responsive center-block">
-                </div>
-                <div class="item">
-                    <img src="./img/KTA.png" alt="Maytag" class="img-responsive center-block">
-                </div>
-                <div class="item">
-                    <img src="./img/MAY.png" alt="Electrolux" class="img-responsive center-block">
-                </div>
-                <div class="item">
-                    <img src="./img/whirl.png" alt="Frigidaire" class="img-responsive center-block">
-                </div>
-            </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Email Savings</a></li>
+            <li><a href="financing.html">Financing</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</section>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
 
-<!-- Boostrap Grid Structure -->
-<!-- <section id="featured-brands" class="container-fluid text-center section-margin">
+    <!-- Second Navbar -->
+    <nav class="navbar-default second-navbar">
+      <div
+        class=""
+        style="padding: 0; display: flex; justify-content: space-around"
+      >
+        <ul
+          class="nav"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #28a745;
+          "
+        >
+          <li><a style="color: #28a745" href="#cooking">Cooking</a></li>
+          <li>
+            <a style="color: #28a745" href="#refrigeration">Refrigeration</a>
+          </li>
+          <li><a style="color: #28a745" href="#laundry">Laundry</a></li>
+          <li><a style="color: #28a745" href="#grilling">Grilling</a></li>
+        </ul>
+        <ul
+          class="nav"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          "
+        >
+          <li><a style="color: #28a745" href="#">Videos</a></li>
+          <li><a style="color: #28a745" href="#">Articles</a></li>
+          <li>
+            <a style="color: #28a745" href="#laundry">Customer Service</a>
+          </li>
+          <li><a style="color: #28a745" href="#">Product Support</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="page-content-wrap" class="clearfix container-fluid">
+      <div class="row">
+        <!-- Jumbotron/Carousel for featured appliances -->
+        <header>
+          <div
+            id="heroCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="6000"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  src="https://linqcdn.avbportal.com/images/c86fe15b-102d-493e-85f7-b6d67ee5dd7f.jpg"
+                  class="img-fluid"
+                  alt="KitchenAid Appliances"
+                  style="height: 70vh; object-fit: cover; width: 100%"
+                />
+                <div class="overlay"></div>
+                <div
+                  class="carousel-caption text-center"
+                  style="top: 50%; transform: translateY(-50%)"
+                >
+                  <h1
+                    class="text-white"
+                    style="font-size: 42px; letter-spacing: 1.5px"
+                  >
+                    Upgrade Your Kitchen with KitchenAid
+                  </h1>
+                  <p
+                    class="text-white"
+                    style="
+                      font-size: 24px;
+                      margin-bottom: 25px;
+                      letter-spacing: 1.5px;
+                    "
+                  >
+                    Premium quality appliances to enhance your home.
+                  </p>
+                  <a
+                    href="#shop"
+                    class="btn btn-primary btn-lg bg-green"
+                    style="padding: 10px 40px"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="https://www.whirlpool.com/is/image/content/dam/business-unit/whirlpool/en-us/marketing-content/site-assets/page-content/2024-q3-homepage-refresh/Kitchen_FO.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1"
+                  class="img-fluid"
+                  alt="Whirlpool Appliances"
+                  style="height: 70vh; object-fit: cover; width: 100%"
+                />
+                <div class="overlay"></div>
+                <div
+                  class="carousel-caption text-center"
+                  style="top: 50%; transform: translateY(-50%)"
+                >
+                  <h1
+                    class="text-white"
+                    style="font-size: 42px; letter-spacing: 1.5px"
+                  >
+                    Whirlpool Innovation for Your Home
+                  </h1>
+                  <p
+                    class="text-white"
+                    style="
+                      font-size: 24px;
+                      margin-bottom: 25px;
+                      letter-spacing: 1.5px;
+                    "
+                  >
+                    Reliable and efficient appliances for everyday living.
+                  </p>
+                  <a
+                    href="#shop"
+                    class="btn btn-primary btn-lg bg-green"
+                    style="padding: 10px 40px"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+              <div class="item">
+                <img
+                  src="https://mobileimages.lowes.com/productimages/e310b118-4774-4d09-861e-063652404272/08791935.jpg"
+                  class="img-fluid"
+                  alt="Maytag Appliances"
+                  style="height: 70vh; object-fit: cover; width: 100%"
+                />
+                <div class="overlay"></div>
+                <div
+                  class="carousel-caption text-center"
+                  style="top: 50%; transform: translateY(-50%)"
+                >
+                  <h1
+                    class="text-white"
+                    style="font-size: 42px; letter-spacing: 1.5px"
+                  >
+                    Durability You Can Trust
+                  </h1>
+                  <p
+                    class="text-white"
+                    style="
+                      font-size: 24px;
+                      margin-bottom: 25px;
+                      letter-spacing: 1.5px;
+                    "
+                  >
+                    Maytag appliances built for long-lasting performance.
+                  </p>
+                  <a
+                    href="#shop"
+                    class="btn btn-primary btn-lg bg-green"
+                    style="padding: 10px 40px"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              class="left carousel-control"
+              href="#heroCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#heroCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </header>
+
+        <!-- Owl Carousel on Brands -->
+        <section
+          id="featured-brands"
+          class="container-fluid text-center section-margin"
+          style="margin-top: 50px"
+        >
+          <h2 style="color: #28a745">Our Featured Brands</h2>
+          <div class="row">
+            <div class="col-sm-12">
+              <div
+                class="featured-brand-container owl-carousel carousel-side-nav"
+              >
+                <div class="item">
+                  <img
+                    src="./img/AMN.png"
+                    alt="KitchenAid"
+                    class="img-responsive center-block"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    src="./img/ELECTROLUX.png"
+                    alt="Whirlpool"
+                    class="img-responsive center-block"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    src="./img/FRIG.png"
+                    alt="Amana"
+                    class="img-responsive center-block"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    src="./img/KTA.png"
+                    alt="Maytag"
+                    class="img-responsive center-block"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    src="./img/MAY.png"
+                    alt="Electrolux"
+                    class="img-responsive center-block"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    src="./img/whirl.png"
+                    alt="Frigidaire"
+                    class="img-responsive center-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Boostrap Grid Structure -->
+        <!-- <section id="featured-brands" class="container-fluid text-center section-margin">
     <h2>Our Featured Brands</h2>
     <div class="row">
         <div class="col-xs-6 col-sm-4 col-md-2">
@@ -165,197 +343,374 @@
     </div>
 </section> -->
 
+        <section class="boxed-container section-margin">
+          <div class="section-header-banner-bg">
+            <div class="section-header-banner">
+              <p class="section-header">Our Categories</p>
+            </div>
+          </div>
+          <div class="featured-boxes">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <a
+                  class="featured-box-04 featured-box-wrap"
+                  href="#"
+                  title="Cooking"
+                >
+                  <img
+                    class="img-fluid"
+                    src="https://www.parkaveappliance.com/cdn/shop/files/frzizvkzbuoh.jpg?v=1741502883&width=1757"
+                    alt="Cooking"
+                  />
+                  <div class="caption">Shop Now</div>
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <a
+                  class="featured-box-05 featured-box-wrap"
+                  href="#"
+                  title="Refrigeration"
+                >
+                  <img
+                    class="img-fluid"
+                    src="https://www.parkaveappliance.com/cdn/shop/files/frmhewfvmakc.png?v=1741550754&width=1125"
+                    alt="Refrigeration"
+                  />
+                  <div class="caption">Shop Now</div>
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <a
+                  class="featured-box-06 featured-box-wrap"
+                  href="#"
+                  title="Laundry"
+                >
+                  <img
+                    class="img-fluid"
+                    src="https://www.parkaveappliance.com/cdn/shop/files/memabcuukqxp.jpg?v=1741522861&width=1125"
+                    alt="Laundry"
+                  />
+                  <div class="caption">Shop Now</div>
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <a
+                  class="featured-box-07 featured-box-wrap"
+                  href="#"
+                  title="Grilling"
+                >
+                  <img
+                    class="img-fluid"
+                    src="https://www.parkaveappliance.com/cdn/shop/files/frhqmaebvgif_e29c3618-9435-409c-8ebf-2b2fac3239b6.jpg?v=1741551069&width=1375"
+                    alt="Grilling"
+                  />
+                  <div class="caption">Shop Now</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /featured-offers -->
 
-<section class="boxed-container section-margin">
-    <div class="section-header-banner-bg">
-        <div class="section-header-banner">
-            <p class="section-header">Our Categories</p>
-        </div>
-    </div>
-    <div class="featured-boxes">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <a class="featured-box-04 featured-box-wrap" href="#" title="Cooking">
-                    <img class="img-fluid" src="https://www.parkaveappliance.com/cdn/shop/files/frzizvkzbuoh.jpg?v=1741502883&width=1757" alt="Cooking">
-                    <div class="caption">Shop Now</div>
-                </a>
+              <section class="container section-margin">
+          <div class="row">
+            <!-- Text Content -->
+            <div class="col-md-6" style="padding-bottom: 20px;">
+              <h2 style="color: #28a745;">Service & Repair</h2>
+              <p>
+                At Bob’s Appliances, we provide top-notch appliance repair and
+                maintenance services to keep your home running smoothly. Our
+                certified technicians are ready to assist with any issues,
+                ensuring your appliances perform at their best.
+              </p>
+              <p>
+                Whether it’s a minor fix or a major repair, our team is
+                committed to offering fast, reliable, and affordable solutions.
+              </p>
+              <a href="contact.html" class="btn btn-primary bg-green"
+                >Schedule a Repair</a
+              >
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <a class="featured-box-05 featured-box-wrap" href="#" title="Refrigeration">
-                    <img class="img-fluid" src="https://www.parkaveappliance.com/cdn/shop/files/frmhewfvmakc.png?v=1741550754&width=1125" alt="Refrigeration">
-                    <div class="caption">Shop Now</div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <a class="featured-box-06 featured-box-wrap" href="#" title="Laundry">
-                    <img class="img-fluid" src="https://www.parkaveappliance.com/cdn/shop/files/memabcuukqxp.jpg?v=1741522861&width=1125" alt="Laundry">
-                    <div class="caption">Shop Now</div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
-                <a class="featured-box-07 featured-box-wrap" href="#" title="Grilling">
-                    <img class="img-fluid" src="https://www.parkaveappliance.com/cdn/shop/files/frhqmaebvgif_e29c3618-9435-409c-8ebf-2b2fac3239b6.jpg?v=1741551069&width=1375" alt="Grilling">
-                    <div class="caption">Shop Now</div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section> <!-- /featured-offers -->
 
+            <!-- Image -->
+            <div class="col-md-6">
+              <img
+                src="https://res.cloudinary.com/jerrick/image/upload/c_scale,f_jpg,q_auto/5fa22b757b0c2b001c0ed165.jpg"
+                alt="Service and Repair"
+                class="img-responsive img-shadow"
+              />
+            </div>
+          </div>
+        </section>
 
-      <!-- Financing with Synchrony Section -->
-<section class="container-fluid section-margin">
-    <div class="row no-gutter featured-rows">
-        <div class="col-xs-12">
-            <div class="featured-row-wrap">
+        <!-- Financing with Synchrony Section -->
+        <section class="container-fluid section-margin">
+          <div class="row no-gutter featured-rows">
+            <div class="col-xs-12">
+              <div class="featured-row-wrap">
                 <!-- <div class="featured-row-background"></div> -->
                 <div class="overlay"></div>
                 <div class="caption">
-                    <p class="caption-title">Financing with Synchrony</p>
-                    <p class="caption-desc">Get the appliances you need today with flexible financing options from Synchrony Financial. Enjoy low monthly payments and exclusive offers tailored for you.</p>
-                    <a class="btn btn-default" href="financing.html" title="Learn More">Learn More</a>
+                  <p class="caption-title">Financing with Synchrony</p>
+                  <p class="caption-desc">
+                    Get the appliances you need today with flexible financing
+                    options from Synchrony Financial. Enjoy low monthly payments
+                    and exclusive offers tailored for you.
+                  </p>
+                  <a
+                    class="btn btn-default"
+                    href="financing.html"
+                    title="Learn More"
+                    >Learn More</a
+                  >
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
+          </div>
+        </section>
 
-
-<!-- Articles of Products -->
-      <section class="boxed-container section-margin">
-        <div class="row featured-cards">
-          <div class="col-sm-4 col-xs-12">
-            <div class="featured-card-01 featured-card-wrap">
-              <div class="card-img">
-                <img class="img-fluid img-shadow" src="https://wilshirerefrigeration.com/wp-content/uploads/2020/07/Male-Technician-With-Screwdriver-Repairing-Refrigerator-in-Kitchen.jpg" width="400px" height="300px" alt="placeholder" title="placeholder"> <!-- Could add a shadow to the images -->
+        <!-- Articles of Products -->
+        <section class="boxed-container section-margin">
+          <div class="row featured-cards">
+            <div class="col-sm-4 col-xs-12">
+              <div class="featured-card-01 featured-card-wrap">
+                <div class="card-img">
+                  <img
+                    class="img-fluid img-shadow"
+                    src="https://wilshirerefrigeration.com/wp-content/uploads/2020/07/Male-Technician-With-Screwdriver-Repairing-Refrigerator-in-Kitchen.jpg"
+                    width="400px"
+                    height="300px"
+                    alt="placeholder"
+                    title="placeholder"
+                  />
+                  <!-- Could add a shadow to the images -->
+                </div>
+                <div class="card-caption">
+                  <p class="caption-title">Appliance Maintenance Tips</p>
+                  <p class="caption-desc">
+                    Discover simple yet effective ways to keep your appliances
+                    running like new and avoid costly repairs!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    class="btn btn-primary btn-cta bg-green"
+                    href="./blog-1.html"
+                    title="placeholder"
+                    >Go to Article</a
+                  >
+                </div>
               </div>
-              <div class="card-caption">
-                <p class="caption-title">Appliance Maintenance Tips</p>
-                <p class="caption-desc">Discover simple yet effective ways to keep your appliances running like new and avoid costly repairs!</p>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="featured-card-02 featured-card-wrap">
+                <div class="card-img img-shadow">
+                  <img
+                    class="img-fluid"
+                    src="https://homeprideinc.com/wp-content/uploads/2022/06/Gray-kitchen-cabinets-1024x722.jpg"
+                    alt="placeholder"
+                    title="placeholder"
+                    width="400px"
+                    height="300px"
+                  />
+                </div>
+                <div class="card-caption">
+                  <p class="caption-title">Kitchen Buying Guide</p>
+                  <p class="caption-desc">
+                    Make the right choice for your kitchen with our expert guide
+                    to selecting the perfect appliances for your home!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    class="btn btn-primary btn-cta bg-green"
+                    href="./blog-2.html"
+                    title="placeholder"
+                    >Go to Article</a
+                  >
+                </div>
               </div>
-              <div class="card-action">
-                <a class="btn btn-primary btn-cta bg-green" href="./blog-1.html" title="placeholder">Go to Article</a>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="featured-card-03 featured-card-wrap">
+                <div class="card-img">
+                  <img
+                    class="img-fluid img-shadow"
+                    src="https://kbbonline.com/wp-content/uploads/2022/02/Survey_AdobeStock_329322060.jpg"
+                    alt="placeholder"
+                    title="placeholder"
+                    width="400px"
+                    height="300px"
+                  />
+                </div>
+                <div class="card-caption">
+                  <p class="caption-title">Home Appliance Checklist</p>
+                  <p class="caption-desc">
+                    Upgrade your home effortlessly with our must-have appliance
+                    checklist for modern, efficient living!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    class="btn btn-primary btn-cta bg-green"
+                    href="./blog-3.html"
+                    title="placeholder"
+                    >Go to Article</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="featured-card-02 featured-card-wrap">
-              <div class="card-img img-shadow">
-                <img class="img-fluid" src="https://homeprideinc.com/wp-content/uploads/2022/06/Gray-kitchen-cabinets-1024x722.jpg" alt="placeholder" title="placeholder" width="400px" height="300px">
-              </div>
-              <div class="card-caption">
-                <p class="caption-title">Kitchen Buying Guide</p>
-                <p class="caption-desc">Make the right choice for your kitchen with our expert guide to selecting the perfect appliances for your home!</p>
-              </div>
-              <div class="card-action">
-                <a class="btn btn-primary btn-cta bg-green" href="./blog-2.html" title="placeholder">Go to Article</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="featured-card-03 featured-card-wrap">
-              <div class="card-img">
-                <img class="img-fluid img-shadow" src="https://kbbonline.com/wp-content/uploads/2022/02/Survey_AdobeStock_329322060.jpg" alt="placeholder" title="placeholder" width="400px" height="300px">
-              </div>
-              <div class="card-caption">
-                <p class="caption-title">Home Appliance Checklist</p>
-                <p class="caption-desc">Upgrade your home effortlessly with our must-have appliance checklist for modern, efficient living!</p>
-              </div>
-              <div class="card-action">
-                <a class="btn btn-primary btn-cta bg-green" href="./blog-3.html" title="placeholder">Go to Article</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
   
-
+      </div>
     </div>
-</div>   <!--  /page-content-wrap -->
 
+    <!--  /page-content-wrap -->
 
     <!-- Footer Section -->
- <footer class="footer">
-  <div class="container">
-    <div class="row" style="padding-top: 20px;">
-      <!-- About Section -->
-      <div class="col-md-3 col-sm-6 text-center" style="padding-bottom: 10px;">
-        <h4 class="text-white">About Us</h4>
-        <p class="text-white">Bob’s Appliances is dedicated to providing high-quality home appliances with exceptional service.</p>
-        <p><a class="text-white" href="about.html">Learn More</a></p>
+    <footer class="footer">
+      <div class="container">
+        <div class="row" style="padding-top: 20px">
+          <!-- About Section -->
+          <div
+            class="col-md-3 col-sm-6 text-center"
+            style="padding-bottom: 10px"
+          >
+            <h4 class="text-white">About Us</h4>
+            <p class="text-white">
+              Bob’s Appliances is dedicated to providing high-quality home
+              appliances with exceptional service.
+            </p>
+            <p><a class="text-white" href="about.html">Learn More</a></p>
+          </div>
+
+          <!-- Quick Links -->
+          <div
+            class="col-md-3 col-sm-6 text-center"
+            style="padding-bottom: 10px"
+          >
+            <h4 class="text-white">Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a class="text-white" href="index.html">Home</a></li>
+              <li><a class="text-white" href="financing.html">Financing</a></li>
+              <li><a class="text-white" href="contact.html">Contact Us</a></li>
+              <li>
+                <a class="text-white" href="privacy-policy.html"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Customer Support -->
+          <div
+            class="col-md-3 col-sm-6 text-center"
+            style="padding-bottom: 10px"
+          >
+            <h4 class="text-white">Customer Support</h4>
+            <ul class="list-unstyled">
+              <li><a class="text-white" href="#">Order Tracking</a></li>
+              <li><a class="text-white" href="#">Returns & Exchanges</a></li>
+              <li><a class="text-white" href="#">Warranty & Repairs</a></li>
+              <li><a class="text-white" href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div
+            class="col-md-3 col-sm-6 text-center"
+            style="padding-bottom: 30px"
+          >
+            <h4 class="text-white">Contact Us</h4>
+            <li>
+              <a class="text-white" href="#"
+                ><i class="glyphicon glyphicon-map-marker"></i> 123 Appliance
+                St, Cityville, ST 56789</a
+              >
+            </li>
+            <li>
+              <a class="text-white" href="#"
+                ><i class="glyphicon glyphicon-earphone"></i> (123) 456-7890</a
+              >
+            </li>
+            <li>
+              <a class="text-white" href="#"
+                ><i class="glyphicon glyphicon-envelope"></i>
+                support@bobsappliances.com</a
+              >
+            </li>
+
+            <p class="text-white">
+              <a href="contact.html" class="btn btn-primary btn-sm bg-green"
+                >Get in Touch</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="row text-center">
+          <div class="col-md-12">
+            <ul class="list-inline">
+              <li>
+                <a href="#" class="btn btn-default btn-sm"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-sm"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-sm"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-sm"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Copyright -->
+        <div class="row text-center">
+          <div class="col-md-12" style="padding-bottom: 45px">
+            <p class="text-muted">
+              &copy; 2024 Bob’s Appliances. All Rights Reserved.
+              <a class="text-muted" href="./privacy.html">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
       </div>
+    </footer>
 
-      <!-- Quick Links -->
-      <div class="col-md-3 col-sm-6 text-center" style="padding-bottom: 10px;">
-        <h4 class="text-white">Quick Links</h4>
-        <ul class="list-unstyled">
-          <li><a class="text-white" href="index.html">Home</a></li>
-          <li><a class="text-white" href="financing.html">Financing</a></li>
-          <li><a class="text-white" href="contact.html">Contact Us</a></li>
-          <li><a class="text-white" href="privacy-policy.html">Privacy Policy</a></li>
-        </ul>
-      </div>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    ></script>
+    <script defer src="./js/heroCarousel.js"></script>
+    <script defer src="./js/owlCarousel.js"></script>
 
-      <!-- Customer Support -->
-      <div class="col-md-3 col-sm-6 text-center" style="padding-bottom: 10px;">
-        <h4 class="text-white">Customer Support</h4>
-        <ul class="list-unstyled">
-          <li><a class="text-white" href="#">Order Tracking</a></li>
-          <li><a class="text-white" href="#">Returns & Exchanges</a></li>
-          <li><a class="text-white" href="#">Warranty & Repairs</a></li>
-          <li><a class="text-white" href="#">FAQs</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact Information -->
-      <div class="col-md-3 col-sm-6 text-center" style="padding-bottom: 30px;">
-        <h4 class="text-white">Contact Us</h4>
-        <li><a class="text-white" href="#"><i class="glyphicon glyphicon-map-marker"></i> 123 Appliance St, Cityville, ST 56789</a></li>
-          <li><a class="text-white" href="#"><i class="glyphicon glyphicon-earphone"></i> (123) 456-7890</a></li>
-          <li><a class="text-white" href="#"><i class="glyphicon glyphicon-envelope"></i> support@bobsappliances.com</a></li>
-       
-        <p class="text-white"><a href="contact.html" class="btn btn-primary btn-sm bg-green">Get in Touch</a></p>
-      </div>
-    </div>
-
-    <!-- Social Media Links -->
-    <div class="row text-center">
-      <div class="col-md-12">
-        <ul class="list-inline">
-          <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#" class="btn btn-default btn-sm"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <hr>
-
-    <!-- Copyright -->
-    <div class="row text-center">
-      <div class="col-md-12" style="padding-bottom: 45px;">
-        <p class="text-muted">&copy; 2024 Bob’s Appliances. All Rights Reserved. <a class="text-muted" href="./privacy.html">Privacy Policy</a></p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
-
-    
-
-  <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script defer src="./js/heroCarousel.js"></script>
-  <script defer src="./js/owlCarousel.js"></script>
-  
-
-  <!-- Klaviyo Integration -->
-  <!-- <script type="text/javascript">
+    <!-- Klaviyo Integration -->
+    <!-- <script type="text/javascript">
   (function() {
       var KlaviyoScript = document.createElement("script");
       KlaviyoScript.type = "text/javascript";
@@ -364,6 +719,5 @@
       document.getElementsByTagName("head")[0].appendChild(KlaviyoScript);
   })();
 </script> -->
-
-</body>
-</html> 
+  </body>
+</html>
