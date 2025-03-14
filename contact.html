@@ -84,20 +84,20 @@
         </div>
         <div class="col-md-6">
             <h2>Send Us a Message</h2>
-            <form>
+            <form id="contact-form">
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                    <textarea class="form-control" name="message" id="message" rows="4" placeholder="Enter your message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" id="sendButton" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>
@@ -109,5 +109,43 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "user_RYevFp6mtIxGCcmTimhuP",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                 emailjs.sendForm('service_3n8xbix', "template_tnkzka9", '#contact-form')
+                  .then(function() {
+                      console.log('SUCCESS!');
+                      // Get the button element
+                      let success = document.getElementById("sendButton");
+                      // Get the contact-form
+                      let contactForm = document.getElementById('contact-form');
+                      // reset will clear the form
+                      contactForm.reset();
+                      // Underneath will change the html of the button to ay Successfully Sent if succesful
+                      success.innerHTML = "Successfully Sent";
+                      // Change the backgroundColor of the button if successful
+                      success.style.backgroundColor = "green";
+                      // Within 3 seconds, the page will reload
+                      setInterval(() => window.location.reload(true), 3000)
+                      // If there is an error, it will log "FAILED..., and console log the error"
+                  }, function(error) {
+                      console.log('FAILED...', error);
+                  });
+            });
+        }
+    </script>
+
 </body>
 </html>
