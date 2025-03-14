@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bob's Appliances</title>
+    <title>Bob's Appliances - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./scss/reset.scss" />
     <link
@@ -37,12 +37,38 @@
 
     <!-- Favicon Package -->
 
-    <link rel="icon" type="image/png" href="./img/favicon-image/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./img/favicon-image/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/favicon-image/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./img/favicon-image/favicon.svg"
+    />
     <link rel="shortcut icon" href="./img/favicon-image/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon-image/apple-touch-icon.png" />
-   
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon-image/apple-touch-icon.png"
+    />
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T94Q6D7ZC3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-T94Q6D7ZC3");
+    </script>
   </head>
 
   <body id="home">
@@ -723,13 +749,14 @@
 
     <!-- Klaviyo Integration -->
     <script type="text/javascript">
-  (function() {
-      var KlaviyoScript = document.createElement("script");
-      KlaviyoScript.type = "text/javascript";
-      KlaviyoScript.async = true;
-      KlaviyoScript.src = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VnKibW";
-      document.getElementsByTagName("head")[0].appendChild(KlaviyoScript);
-  })();
-</script>
+      (function () {
+        var KlaviyoScript = document.createElement("script");
+        KlaviyoScript.type = "text/javascript";
+        KlaviyoScript.async = true;
+        KlaviyoScript.src =
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VnKibW";
+        document.getElementsByTagName("head")[0].appendChild(KlaviyoScript);
+      })();
+    </script>
   </body>
 </html>

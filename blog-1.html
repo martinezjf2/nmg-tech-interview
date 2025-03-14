@@ -1,108 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bob's Appliances</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./scss/reset.scss">
-     <link rel="stylesheet" href="./scss/MY-THEME.CSS" />
-     <link rel="stylesheet" href="./scss/blog.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/navbar-static-top/">
-     <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
-     <!-- FontAwesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog 1 - Bob's Appliances</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/reset.scss" />
+    <link rel="stylesheet" href="./scss/MY-THEME.CSS" />
+    <link rel="stylesheet" href="./scss/blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/3.4/examples/navbar-static-top/"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700,900"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <!-- Favicon Package -->
+    <!-- Favicon Package -->
 
-    <link rel="icon" type="image/png" href="./img/favicon-image/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./img/favicon-image/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/favicon-image/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./img/favicon-image/favicon.svg"
+    />
     <link rel="shortcut icon" href="./img/favicon-image/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon-image/apple-touch-icon.png" />
-   
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon-image/apple-touch-icon.png"
+    />
 
-</head>
-<body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T94Q6D7ZC3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0; padding: 20px 0px;">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-          <a class="navbar-brand" href="index.html" style="display: flex; justify-content: center; align-items: center"><img src="./img/logo-ideas/2.png" width="80px"/></a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Email Savings</a></li>
-        <li><a href="financing.html">Financing</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+      gtag("config", "G-T94Q6D7ZC3");
+    </script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-default navbar-static-top"
+      style="margin-bottom: 0; padding: 20px 0px"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a
+            class="navbar-brand"
+            href="index.html"
+            style="display: flex; justify-content: center; align-items: center"
+            ><img src="./img/logo-ideas/2.png" width="80px"
+          /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Email Savings</a></li>
+            <li><a href="financing.html">Financing</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
 
-
-<!-- Second Navbar -->
-<nav class="navbar-default">
-    <div class="" style="padding: 0; display: flex; justify-content: space-around">
-        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
-    text-overflow: ellipsis; color: #28a745;">
-            <li><a style="color: #28a745;" href="#cooking">Cooking</a></li>
-            <li><a style="color: #28a745;" href="#refrigeration">Refrigeration</a></li>
-            <li><a style="color: #28a745;" href="#laundry">Laundry</a></li>
-            <li><a style="color: #28a745;" href="#grilling">Grilling</a></li>
+    <!-- Second Navbar -->
+    <nav class="navbar-default">
+      <div
+        class=""
+        style="padding: 0; display: flex; justify-content: space-around"
+      >
+        <ul
+          class="nav"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #28a745;
+          "
+        >
+          <li><a style="color: #28a745" href="#cooking">Cooking</a></li>
+          <li>
+            <a style="color: #28a745" href="#refrigeration">Refrigeration</a>
+          </li>
+          <li><a style="color: #28a745" href="#laundry">Laundry</a></li>
+          <li><a style="color: #28a745" href="#grilling">Grilling</a></li>
         </ul>
-        <ul class="nav" style="display: flex; justify-content: center; align-items: center; white-space: nowrap; overflow: hidden;
-    text-overflow: ellipsis;">
-            <li><a style="color: #28a745;" href="#">Videos</a></li>
-            <li><a style="color: #28a745;" href="#">Articles</a></li>
-            <li><a style="color: #28a745;" href="#laundry">Customer Service</a></li>
-            <li><a style="color: #28a745;" href="#">Product Support</a></li>
+        <ul
+          class="nav"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          "
+        >
+          <li><a style="color: #28a745" href="#">Videos</a></li>
+          <li><a style="color: #28a745" href="#">Articles</a></li>
+          <li>
+            <a style="color: #28a745" href="#laundry">Customer Service</a>
+          </li>
+          <li><a style="color: #28a745" href="#">Product Support</a></li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-<header class="blog-header text-center">
-    <div class="container">
+    <header class="blog-header text-center">
+      <div class="container">
         <h1 class="blog-header-h1">Essential Appliance Maintenance Tips</h1>
-        <p>Extend the life of your home appliances with these expert maintenance tips.</p>
+        <p>
+          Extend the life of your home appliances with these expert maintenance
+          tips.
+        </p>
+      </div>
+    </header>
+
+    <section class="container blog-content">
+      <img
+        src="https://gulfcoastappliances.com/wp-content/uploads/2023/11/regularmaintenanceappliances.jpeg"
+        alt="Appliance Maintenance"
+        class="blog-image"
+      />
+
+      <h2 class="blog-header-h2">
+        <i class="fa fa-snowflake-o"></i> Keep Your Refrigerator Running
+        Efficiently
+      </h2>
+      <p>
+        Regularly clean the condenser coils at the back or bottom of your fridge
+        to prevent dust buildup, which can cause the compressor to overwork and
+        increase electricity bills. Ensure that door seals are tight by
+        performing the dollar bill test—if it slides out easily, the seals need
+        replacing.
+      </p>
+
+      <h2 class="blog-header-h2">
+        <i class="fa fa-tint"></i> Clean Your Washing Machine Monthly
+      </h2>
+      <p>
+        Run an empty cycle with white vinegar to remove detergent residue,
+        followed by a baking soda cycle to eliminate odors. Wipe down the rubber
+        door gasket and leave the lid open between washes to allow proper
+        ventilation and prevent mold growth.
+      </p>
+
+      <h2 class="blog-header-h2">
+        <i class="fa fa-cutlery"></i> Avoid Overloading Your Dishwasher
+      </h2>
+      <p>
+        Overloading the dishwasher can block water spray and reduce cleaning
+        efficiency. Ensure optimal performance by spacing out dishes properly
+        and cleaning the filter monthly. Running an empty cycle with vinegar
+        helps dissolve grease and mineral deposits.
+      </p>
+
+      <h2 class="blog-header-h2">
+        <i class="fa fa-fire"></i> Maintain Your Oven and Stove
+      </h2>
+      <p>
+        Use a non-abrasive cleaner for glass cooktops, and clean gas burners
+        with warm, soapy water. Wipe down spills immediately to prevent buildup.
+        If you have a self-cleaning oven, follow the manufacturer’s guidelines
+        carefully to avoid damaging internal components.
+      </p>
+
+      <h2 class="blog-header-h2">
+        <i class="fa fa-check-circle"></i> Final Thoughts
+      </h2>
+      <p>
+        Consistent maintenance of your appliances not only extends their
+        lifespan but also improves efficiency and saves you money on repairs.
+        Make these simple upkeep routines a habit, and your appliances will
+        serve you well for years to come.
+      </p>
+    </section>
+
+    <div class="text-center" style="margin: 25px 0">
+      <p>
+        <a href="./blog-2.html"
+          >Next Blog: The Ultimate Kitchen Appliance Buying Guide</a
+        >
+      </p>
+      <p><a href="index.html">Back to Home</a></p>
     </div>
-</header>
-
-<section class="container blog-content">
-    <img src="https://gulfcoastappliances.com/wp-content/uploads/2023/11/regularmaintenanceappliances.jpeg" alt="Appliance Maintenance" class="blog-image">
-    
-    <h2 class="blog-header-h2"><i class="fa fa-snowflake-o"></i> Keep Your Refrigerator Running Efficiently</h2>
-    <p>Regularly clean the condenser coils at the back or bottom of your fridge to prevent dust buildup, which can cause the compressor to overwork and increase electricity bills. Ensure that door seals are tight by performing the dollar bill test—if it slides out easily, the seals need replacing.</p>
-    
-    <h2 class="blog-header-h2"><i class="fa fa-tint"></i> Clean Your Washing Machine Monthly</h2>
-    <p>Run an empty cycle with white vinegar to remove detergent residue, followed by a baking soda cycle to eliminate odors. Wipe down the rubber door gasket and leave the lid open between washes to allow proper ventilation and prevent mold growth.</p>
-    
-    <h2 class="blog-header-h2"><i class="fa fa-cutlery"></i> Avoid Overloading Your Dishwasher</h2>
-    <p>Overloading the dishwasher can block water spray and reduce cleaning efficiency. Ensure optimal performance by spacing out dishes properly and cleaning the filter monthly. Running an empty cycle with vinegar helps dissolve grease and mineral deposits.</p>
-    
-    <h2 class="blog-header-h2"><i class="fa fa-fire"></i> Maintain Your Oven and Stove</h2>
-    <p>Use a non-abrasive cleaner for glass cooktops, and clean gas burners with warm, soapy water. Wipe down spills immediately to prevent buildup. If you have a self-cleaning oven, follow the manufacturer’s guidelines carefully to avoid damaging internal components.</p>
-    
-    <h2 class="blog-header-h2"><i class="fa fa-check-circle"></i> Final Thoughts</h2>
-    <p>Consistent maintenance of your appliances not only extends their lifespan but also improves efficiency and saves you money on repairs. Make these simple upkeep routines a habit, and your appliances will serve you well for years to come.</p>
-</section>
-
-<div class="text-center" style="margin: 25px 0;">
-    <p><a href="./blog-2.html">Next Blog: The Ultimate Kitchen Appliance Buying Guide</a></p>
-    <p><a href="index.html">Back to Home</a></p>
-</div>
-  <!-- Footer Section -->
+    <!-- Footer Section -->
     <footer class="footer">
       <div class="container">
         <div class="row" style="padding-top: 20px">
@@ -224,7 +353,5 @@
         </div>
       </div>
     </footer>
-
-
-</body>
+  </body>
 </html>
